@@ -1,0 +1,22 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex para r/ArgentinaPrograma",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachob14/Pokedex.git"
+  },
+  "author": "Juan Ignacio Bordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachob14/Pokedex/issues"
+  },
+  "homepage": "https://github.com/nachob14/Pokedex#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
