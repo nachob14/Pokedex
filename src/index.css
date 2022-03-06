@@ -1,0 +1,21 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+}
+
+body {
+    background-image: url('img/pokedex-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+#contenedorPadre{
+    width: 80%;
+}
