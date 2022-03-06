@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="src/index.css"
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center mt-2 fw-bold">Pokedex</h2>
+    </div>
+    <div>
+        <h5 class="text-center" id="encabezado">There are <strong id="contadorPokemones"></strong> pokemon in this Pokedex.</h5>
+    </div>
+    <br>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <form class="container-fluid">
+              <button class="btn btn-outline-danger me-2" type="button" id="botonAnterior">Previous</button>
+              <button class="btn btn-outline-success me-2" type="button" id="botonSiguiente">Next</button>
+            </form>
+        </nav>
+    </div>
+    <br> <br>
+    <div class="container-fluid" id="contenedorPadre">
+        <div class="row" id="contenedorPokemones">
+
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="src/index.js"></script>
+</body>
+</html>
