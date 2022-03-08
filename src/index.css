@@ -19,3 +19,13 @@ body {
 #contenedorPadre{
     width: 80%;
 }
+
+.invisible {
+    display: none;
+}
+
+.tarjeta {
+    opacity: 1;
+    transition: opacity ease 1s;
+    cursor: pointer;
+}
