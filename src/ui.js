@@ -45,14 +45,14 @@ export function manejarEventos(){
     contenedor.onclick = function(e){
         const pokemonSeleccionado = e.target;
         if(pokemonSeleccionado.classList.contains('card')){
-            manejarClickUsuario(pokemonSeleccionado)
+           manejarClickUsuario(pokemonSeleccionado)
         };
     }
 }
 
-export function manejarClickUsuario(elemento){
-    imagen = elemento.querySelector('img');
-    elementos = elemento.querySelectorAll('li');
+function manejarClickUsuario(elemento){
+    let imagen = elemento.querySelector('img');
+    let elementos = elemento.querySelectorAll('li');
 
     if(elemento.querySelectorAll('li')[0].classList.contains('invisible')){
         setTimeout(function(){
@@ -79,6 +79,7 @@ export function manejarClickUsuario(elemento){
         }, 600);
     }
 }
+
 
 const botonAnterior = document.querySelector('#botonAnterior');
 const botonSiguiente = document.querySelector('#botonSiguiente');
